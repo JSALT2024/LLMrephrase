@@ -6,9 +6,9 @@
 INFILE=train.filtered3.beg_dur_id_frames_fps_text.tsv
 
 # this file contains the video ids of the documents to truecase
-# those longer than 50 seconds and having more than 75% uppercase
+# those longer than 50 seconds and having more than 74% uppercase
 # (roughly...)
-# in total they are 5% of the data
+# in total they are 5% of the training data
 to_truecase=ids-to-truecase.txt
 
 

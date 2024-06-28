@@ -2,7 +2,7 @@
 
 # Pá čen 28 17:48:02 CEST 2024
 
-# we forgot to apply this step
+# we forgot to apply this step to the truecased data :(
 
 import sys
 vid = None
