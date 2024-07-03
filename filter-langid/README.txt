@@ -9,3 +9,8 @@ remove-langid.txt
 
 stats-x.py
 	- makes statistics about language id
+
+filter-langid.py
+	- takes the train norm tsv file, opens remove-langid.txt and produces
+	  the non-filtered ones
+
