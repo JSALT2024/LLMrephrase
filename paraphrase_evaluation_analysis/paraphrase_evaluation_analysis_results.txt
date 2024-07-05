@@ -1,0 +1,47 @@
+Basic Statistics:
+                 WER            CER    NER_Overlap
+count  152500.000000  152500.000000  152500.000000
+mean        0.915278       0.774928       0.946266
+std         0.306560       0.393345       0.216902
+min         0.000000       0.000000       0.000000
+25%         0.727273       0.571429       1.000000
+50%         1.000000       0.755556       1.000000
+75%         1.000000       0.909091       1.000000
+max         4.750000       8.888889       1.000000
+
+Median Values:
+WER            1.000000
+CER            0.755556
+NER_Overlap    1.000000
+dtype: float64
+
+Correlations between metrics:
+                  WER       CER  NER_Overlap
+WER          1.000000  0.580355    -0.062169
+CER          0.580355  1.000000    -0.079528
+NER_Overlap -0.062169 -0.079528     1.000000
+
+Average metrics by rephrase number:
+                      WER       CER  NER_Overlap
+Rephrase_Number                                 
+1                0.871821  0.744560     0.945257
+2                0.914171  0.770302     0.946037
+3                0.928035  0.783680     0.946566
+4                0.927903  0.783783     0.947270
+5                0.934458  0.792315     0.946203
+
+Visualization images saved in the 'paraphrase_evaluation_analysis' directory.
+
+Percentage of paraphrases with high entity preservation (NER Overlap > 0.8): 93.77%
+
+Average WER and CER for paraphrases with high entity preservation:
+WER    0.910760
+CER    0.768144
+dtype: float64
+
+Best performing rephrase number (based on lowest average WER): 1
+Its average metrics:
+WER            0.871821
+CER            0.744560
+NER_Overlap    0.945257
+Name: 1, dtype: float64
