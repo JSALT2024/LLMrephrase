@@ -1,0 +1,55 @@
+Basic Statistics for BERT Scores:
+count    152500.000000
+mean          0.400228
+std           0.364076
+min          -0.908150
+25%           0.337387
+50%           0.515849
+75%           0.637611
+max           1.000000
+Name: BERT_Scores, dtype: float64
+
+Median BERT Score: 0.515848696231842
+
+Average BERT Score (calculated): 0.4002283187341371
+Average BERT Score (from CSV): 0.40022831873413706
+
+Visualization images saved in the 'bert_score_analysis' directory.
+
+Percentage of BERT scores > 0.5: 52.97%
+
+Percentage of BERT scores > 0.6: 32.61%
+
+Percentage of BERT scores > 0.7: 14.31%
+
+Percentage of BERT scores > 0.8: 3.85%
+
+Top 5 highest BERT scores:
+Score: 0.9925, Caption: carry the Weight Watchers brand.
+Score: 0.9359, Caption: submitted by organizations who are
+Score: 0.9332, Caption: of the Atlantic hurricane season.
+Score: 0.9191, Caption: to determine the VRS rate.
+Score: 0.9119, Caption: in meetings, services, and programs.
+
+Top 5 lowest BERT scores:
+Score: -0.9082, Caption: Dear Charlie,
+424.49115782449115	2.635969302635999	UDaSf-XAo3s	12722	12801	29.97	We are sending you a photograph of
+427.12712712712715	5.905905905905911	UDaSf-XAo3s	12801	12978	29.97	Mugwump, one of the giant golden moles
+433.03303303303306	2.86953620286954	UDaSf-XAo3s	12978	13064	29.97	we have been helping. Doesn't he look
+435.9025692359026	3.1364698031364355	UDaSf-XAo3s	13064	13158	29.97	pleased we are in South Africa with him?
+439.70637303970636	2.702702702702709	UDaSf-XAo3s	13178	13259	29.97	We have had plenty of time for swimming
+442.4090757424091	2.4024024024024015	UDaSf-XAo3s	13259	13331	29.97	as well. We are most grateful both of us
+444.8114781448115	4.30430430430431	UDaSf-XAo3s	13331	13460	29.97	brought an extra bathing suit.
+451.317984651318	1.801801801801787	UDaSf-XAo3s	13526	13580	29.97	How are your grandparents doing?
+453.6202869536203	4.270937604270955	UDaSf-XAo3s	13595	13723	29.97	Have you explored the village? After we
+457.89122455789123	3.6036036036036307	UDaSf-XAo3s	13723	13831	29.97	return home to take you to the faraway
+461.49482816149487	4.270937604270898	UDaSf-XAo3s	13831	13959	29.97	boarding school we plan to return to
+465.76576576576576	6.573239906573235	UDaSf-XAo3s	13959	14156	29.97	South Africa. Mugwump has indicated he
+472.339005672339	4.30430430430431	UDaSf-XAo3s	14156	14285	29.97	would like to see more of us, and three
+476.6433099766433	2.9362696029363065	UDaSf-XAo3s	14285	14373	29.97	weeks is simply not enough time.
+479.9132465799133	1.3680347013680034	UDaSf-XAo3s	14383	14424	29.97	See you soon!
+481.5148481815149	6.139472806139452	UDaSf-XAo3s	14431	14615	29.97	Your parents (Alistair and Myra Tickler) 
+Score: -0.8990, Caption: A-L-T-O-G-E-T-H-E-R
+Score: -0.8990, Caption: A-L-T-O-G-E-T-H-E-R
+Score: -0.8867, Caption: my H-O-R-M-O-N-E R-E-C-E-P-T-O-R
+Score: -0.8672, Caption: D-A-N-N-Y G
