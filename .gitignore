@@ -1,3 +1,6 @@
 *.wrd
 *.json
 *.tsv
+*.csv
+
+!inspect-eval-paraphr/*.csv
