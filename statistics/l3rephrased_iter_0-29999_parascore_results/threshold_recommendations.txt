@@ -1,0 +1,5 @@
+For a threshold at the 25th percentile (top 75% of scores): nan
+For a threshold at the 50th percentile (top 50% of scores): nan
+For a threshold at the 75th percentile (top 25% of scores): nan
+For a threshold at the 90th percentile (top 10% of scores): nan
+For a threshold at the 95th percentile (top 5% of scores): nan
