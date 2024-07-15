@@ -43,11 +43,14 @@ terminators = [
     pipe.tokenizer.eos_token_id,
     pipe.tokenizer.convert_tokens_to_ids("<|eot_id|>")]
 
-with open("/auto/brno2/home/javorek/LLama3-70Brephrase_output.txt", 'a') as f:
+with open("/auto/brno2/home/javorek/LLama3-70Brephrase2gpu_output.txt", 'a') as f:
     from datetime import datetime
     now = datetime.now()
-    f.write("start date and time =", now.strftime("%d/%m/%Y %H:%M:%S"),"\n")
-    f.write(rephrase_sentence("Edgar Allan Poe lived in Baltimore during the 1830s and is buried there.",5),"\n")
+    f.write("start date and time = " + now.strftime("%d/%m/%Y %H:%M:%S") + "\n")
+    
+    rephrased_sentences = rephrase_sentence("Edgar Allan Poe lived in Baltimore during the 1830s and is buried there.", 5)
+    for sentence in rephrased_sentences:
+        f.write(sentence + "\n")
     now = datetime.now()
-    f.write("end date and time =", now.strftime("%d/%m/%Y %H:%M:%S"),"\n")
-
+    
+    f.write("end date and time = " + now.strftime("%d/%m/%Y %H:%M:%S") + "\n")
