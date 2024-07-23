@@ -33,6 +33,8 @@ data = [(a,b,c.strip()) for a,b,c in data]
 clips = {cl:t for _,cl,t in data}
 
 similarities = np.load(args.similarities)
+print("similarities loaded: ",similarities.shape, file=sys.stderr)
+
 
 out_data = {}
 
@@ -92,4 +94,3 @@ for i in range(len(data)):
 
 #with open(sys.argv[1],"w") as f:
 json.dump(out_data, sys.stdout, indent=4)
-    

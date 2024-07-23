@@ -36,7 +36,6 @@ print("embeddings saved")
 similarities = model.similarity(embeddings, embeddings)
 print("similarities counted")
 s = np.asarray(similarities,dtype=np.float16)
-np.save("h2strain_sim.npy",s)
 print("similarities saved")
 # tensor([[1.0000, 0.6660, 0.1046],
 #         [0.6660, 1.0000, 0.1411],
