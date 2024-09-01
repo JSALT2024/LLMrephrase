@@ -16,6 +16,7 @@ Code repository affiliated with the SignLLaVa team at the [JSALT 2024](https://w
 	 - [Llama3rephrase+context-iter.ipynb](https://github.com/JSALT2024/LLMrephrase/blob/main/paraphrase_scripts/Llama3rephrase%2Bcontext-iter.ipynb "Llama3rephrase+context-iter.ipynb") - Iterative rephrasing
 	 - [Llama3rephrase_HF.ipynb](https://github.com/JSALT2024/LLMrephrase/blob/main/paraphrase_scripts/Llama3rephrase_HF.ipynb "Llama3rephrase_HF.ipynb") - HuggingFace API version
 	 - [error counter.ipynb](https://github.com/JSALT2024/LLMrephrase/blob/main/paraphrase_scripts/error%20counter.ipynb "error counter.ipynb") - fast bugfix and verification scripts
+	 - [LLama3-70B](https://github.com/JSALT2024/LLMrephrase/tree/main/paraphrase_scripts/LLama3-70B "LLama3-70B") - scripts for rephrasing with Llama3-70B
 
  
  - [paraphrase_evaluation_analysis](https://github.com/JSALT2024/LLMrephrase/tree/main/paraphrase_evaluation_analysis "paraphrase_evaluation_analysis") - evaluation scripts by [**Alessa Carbo**](https://github.com/AlessaC14)
